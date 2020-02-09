@@ -11,13 +11,13 @@ import com.google.android.material.button.MaterialButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    MaterialButton  login;
+    Button  login;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        login = findViewById(R.id.material_button);
+        login = findViewById(R.id.material_buttons);
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override

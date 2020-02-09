@@ -7,14 +7,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/material_button"
+    <Button
+        android:id="@+id/material_buttons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Log IN"
 
          />
-
+<!--
     <com.google.android.material.button.MaterialButton
         android:id="@+id/disabled_material_button"
         android:layout_width="wrap_content"
@@ -87,6 +87,6 @@
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="sasda"/>
+        android:text="sasda"/>-->
 
 </LinearLayout>
