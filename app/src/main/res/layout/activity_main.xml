@@ -1,19 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/material_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Log IN"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+         />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/disabled_material_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Log IN"
+    />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/material_unelevated_button"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log IN"
+        app:iconGravity="end"
+         />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/material_text_button"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log IN"
+       />
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:clipToPadding="false"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:foregroundGravity="left">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/material_buttona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ssssss"
+
+            android:layout_column="1"/>
+
+
+        <Space/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/material_buttonaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="3"
+
+            android:text="ssssss" />
+
+        <Space/>
+    </GridLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materiaal_button"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button_label_enabledsd"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materiasl_text_button"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sasda"/>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "746566341276",
+    "firebase_url": "https://hamrokitab-2020.firebaseio.com",
+    "project_id": "hamrokitab-2020",
+    "storage_bucket": "hamrokitab-2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746566341276:android:87b7c5bd190d31de45d359",
+        "android_client_info": {
+          "package_name": "com.kalenewar.hamrokitab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746566341276-ldn4g97p9qreoqtb7d4fqc45ek0avhob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kalenewar.hamrokitab",
+            "certificate_hash": "803571958e1f8fbf586270a1561adb1d56a2ae56"
+          }
+        },
+        {
+          "client_id": "746566341276-4fvh4k1030lc7smucic96l1cmg7mj76k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoagKyImw2eB-uS0rXCYDGKl5WLEbLPgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746566341276-4fvh4k1030lc7smucic96l1cmg7mj76k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
